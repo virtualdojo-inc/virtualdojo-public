@@ -83,6 +83,8 @@ sqlite> SELECT run_id, direction, started_at, status, dry_run FROM sync_run ORDE
 
 ## Logs
 
+In the desktop app, click **Open logs folder** under the status line to open this folder directly.
+
 `logs\sync.log` records what each run did, including every write made to QuickBooks. Both the
 desktop app and the console app write to it.
 
