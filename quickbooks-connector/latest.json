@@ -1,16 +1,16 @@
 {
-  "version": "0.10.3",
+  "version": "0.10.4",
   "released": "2026-10-02",
-  "notes": "Value maps in the Configuration window: Edit field, a value map when adding a field, and true/false or picklist choices. --value-map on the command line.",
+  "notes": "Mapping editor: set where an object's lines come from (mapping set-lines), and line-field sources are checked against the line object.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
-      "sha256": "2221838ae78acf319ad073a46548d89d4540034a454f13049aec71330b4c626d"
+      "sha256": "8b8ca8139137857d0d672954e647138d451b8142380222a6af75e6c2d87c2360"
     },
     "virtualdojo_sync_console.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
-      "sha256": "b27ebc53ad115521ee641b9859aa523bc8c03d87762b6a770dc0dec8f6e3e809"
+      "sha256": "e4ee88eeb83d5d28a08172a8173ced27da5936e5008905642d82833a861aff78"
     }
   }
 }
