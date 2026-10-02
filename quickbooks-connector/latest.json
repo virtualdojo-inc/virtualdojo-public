@@ -1,16 +1,16 @@
 {
-  "version": "0.10.7",
+  "version": "0.10.8",
   "released": "2026-10-02",
-  "notes": "Fix: the window reopened after an in-app update could not talk to QuickBooks.",
+  "notes": "Value map: Load QuickBooks values (ship via, customer message, tax codes, terms, class, template, sales rep) and a working Load VirtualDojo values for picklists.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
-      "sha256": "ca071dfca0617729917ffbb0b082f6c905b930d1b55bde3b4bfbba806b2136d1"
+      "sha256": "ec26ad45242c76429051c748a29787b2dea06573e4d64853e1744bd31cc4a770"
     },
     "virtualdojo_sync_console.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
-      "sha256": "4d79a81951ba29d1a5cb9ffd03eea5e5c1fec31691f76ad9219b37057a72fc23"
+      "sha256": "f17ea205ac7b6c4baa0f97813ce9e4bd0a28a727dd6fbe35942bf01e2e3664e1"
     }
   }
 }
