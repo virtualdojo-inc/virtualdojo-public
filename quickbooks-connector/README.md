@@ -34,7 +34,13 @@ You do **not** need Python or any other software.
 
 ## Download
 
-Get the latest `virtualdojo_sync.exe` and `virtualdojo_sync_console.exe` from the
+| File | Download |
+|---|---|
+| Desktop app | [virtualdojo_sync.exe](https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.0.1/virtualdojo_sync.exe) |
+| Console app | [virtualdojo_sync_console.exe](https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.0.1/virtualdojo_sync_console.exe) |
+| Checksums | [SHA256SUMS.txt](https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.0.1/SHA256SUMS.txt) |
+
+No sign-in is needed. All versions are on the
 [Releases page](https://github.com/virtualdojo-inc/virtualdojo-public/releases).
 Each release includes a `SHA256SUMS.txt` file so you can confirm your download is intact:
 

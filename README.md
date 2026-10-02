@@ -15,6 +15,7 @@ one you need.
 
 ## QuickBooks Connector at a glance
 
+- **Download:** [desktop app](https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.0.1/virtualdojo_sync.exe) · [console app](https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.0.1/virtualdojo_sync_console.exe) · [checksums](https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.0.1/SHA256SUMS.txt)
 - [Overview and installation](quickbooks-connector/README.md)
 - [Console commands reference](quickbooks-connector/docs/console-commands.md) — every command and option
 - [Where your files are stored](quickbooks-connector/docs/files-and-data.md) — configuration, field mappings, the local SQLite database, logs, reports, and saved credentials
