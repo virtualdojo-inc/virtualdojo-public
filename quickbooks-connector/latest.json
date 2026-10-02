@@ -1,16 +1,16 @@
 {
-  "version": "0.10.4",
+  "version": "0.10.5",
   "released": "2026-10-02",
-  "notes": "Mapping editor: set where an object's lines come from (mapping set-lines), and line-field sources are checked against the line object.",
+  "notes": "Fix: installing an update now re-reads the latest release information first, so an out-of-date cached checksum can no longer make a newer release fail verification.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
-      "sha256": "8b8ca8139137857d0d672954e647138d451b8142380222a6af75e6c2d87c2360"
+      "sha256": "e1b3b6fca347eff1fcddc9911d3b8b8511a240753d290233ebbaa49682512090"
     },
     "virtualdojo_sync_console.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
-      "sha256": "e4ee88eeb83d5d28a08172a8173ced27da5936e5008905642d82833a861aff78"
+      "sha256": "4b5521c01220358af4251299bdd62fa10b9bd51f97d78cb4188056d29eebc154"
     }
   }
 }
