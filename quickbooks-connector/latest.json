@@ -1,16 +1,16 @@
 {
-  "version": "0.10.1",
+  "version": "0.10.3",
   "released": "2026-10-02",
-  "notes": "Update installs now check up front that they can replace the installed programs, and say why when they cannot.",
+  "notes": "Value maps in the Configuration window: Edit field, a value map when adding a field, and true/false or picklist choices. --value-map on the command line.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
-      "sha256": "5e3d4e20e947b67c14ac0f5eb485cade01cd0549c95e64390642316f0f6b2a84"
+      "sha256": "2221838ae78acf319ad073a46548d89d4540034a454f13049aec71330b4c626d"
     },
     "virtualdojo_sync_console.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
-      "sha256": "cb361d48ec8011d5d7e5aea183f903ad0c3bd01337052a70858f05da5dc23443"
+      "sha256": "b27ebc53ad115521ee641b9859aa523bc8c03d87762b6a770dc0dec8f6e3e809"
     }
   }
 }
