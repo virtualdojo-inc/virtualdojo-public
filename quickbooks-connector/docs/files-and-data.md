@@ -29,6 +29,24 @@ If `QBEC_CONFIG_DIR` is set, that folder is used instead.
 | `accounts-…json`, `reflists-…json`, `dataext-…json` | Cached lists read from QuickBooks (chart of accounts; classes, templates, terms, sales reps; custom-field definitions), one set per company file. Safe to delete — they are rebuilt. |
 | `vdj-schema-….json` | Cached list of VirtualDojo objects and fields, one per server. Safe to delete — it is rebuilt. |
 
+## Running two configurations
+
+Pass `--config-dir` to use a different folder for everything above:
+
+```console
+virtualdojo_sync_console --config-dir "D:\Sync\CompanyB" run to-quickbooks
+```
+
+For the desktop app, add it to the shortcut's **Target** box, after the path to the program:
+
+```
+"C:\VirtualDojoSync\virtualdojo_sync.exe" --config-dir "D:\Sync\CompanyB"
+```
+
+Make one shortcut per configuration. Each folder gets its own settings, mapping, database, logs and
+reports. **Sign-in is not separate:** saved credentials are per Windows user, so both
+configurations use the same VirtualDojo login. For different logins, use different Windows users.
+
 ## Saved credentials
 
 Sign-in tokens are **not** in any of the files above. They are stored in **Windows Credential

@@ -16,6 +16,7 @@ options, for example `virtualdojo_sync_console run --help`.
 |---|---|
 | `--version` | Print the version and exit |
 | `-v`, `--verbose` | Debug logging, on screen and in the log file |
+| `--config-dir PATH` | Use this folder for the configuration, mapping, SQLite database, logs and reports instead of the default. Lets you run separate configurations side by side. Sign-in is still shared per Windows user. See [Running two configurations](files-and-data.md#running-two-configurations) |
 | `-h`, `--help` | Show help |
 
 ## Commands at a glance
