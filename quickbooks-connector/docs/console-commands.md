@@ -32,6 +32,7 @@ options, for example `virtualdojo_sync_console run --help`.
 | [`dump`](#dump) | Saves raw QuickBooks data to a file for support | No |
 | [`mapping`](#mapping) | Shows and edits field mappings | Mapping file only |
 | [`state`](#state) | Shows and resolves interrupted writes | Only with `--mark-*` |
+| [`customfield`](#customfield) | Lists QuickBooks custom fields, or creates one | **`add` writes one custom-field definition** |
 | [`update`](#update) | Checks whether a newer version is available | No |
 | [`gui`](#gui) | Opens the desktop window | — |
 
@@ -281,6 +282,26 @@ virtualdojo_sync_console state --mark-failed invoices/<record-id>
 
 Normally you do not need this: the next run reconciles interrupted writes itself and stops if it
 cannot be sure. Use `state` when it stops and tells you a record needs a human decision.
+
+## customfield
+
+A mapping can only write to a QuickBooks custom field that already exists in the company file.
+This command lists them, and can create one.
+
+```console
+virtualdojo_sync_console customfield list
+virtualdojo_sync_console customfield add "Contract Type" --assign Invoice
+```
+
+| Verb / option | Meaning |
+|---|---|
+| `list` | List the custom fields in the company file and what each is assigned to. Read-only. |
+| `add NAME --assign OBJECT` | Create a custom field called NAME for OBJECT (for example `Invoice`). Repeat `--assign` for several objects. Does nothing if the field already exists; if it exists but is not assigned to every object you gave, it stops and changes nothing. |
+| `--type TYPE` | QuickBooks data type. Default `STR255TYPE` (text up to 255 characters). |
+
+`add` is the only thing this command writes to your company file. The name is matched exactly when
+values are written, so type it exactly as it should read in QuickBooks. QuickBooks must be able to
+open the company file configured with `config --company-file`.
 
 ## update
 

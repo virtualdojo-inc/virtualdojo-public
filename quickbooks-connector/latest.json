@@ -1,16 +1,16 @@
 {
-  "version": "0.10.5",
+  "version": "0.10.6",
   "released": "2026-10-02",
-  "notes": "Fix: installing an update now re-reads the latest release information first, so an out-of-date cached checksum can no longer make a newer release fail verification.",
+  "notes": "New customfield command: list the QuickBooks custom fields or create one so a mapping can write to it.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
-      "sha256": "e1b3b6fca347eff1fcddc9911d3b8b8511a240753d290233ebbaa49682512090"
+      "sha256": "86903721f4e1c516f6f5dbc53f2b0092c38ad2daf1f49958901afd0d81f95717"
     },
     "virtualdojo_sync_console.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
-      "sha256": "4b5521c01220358af4251299bdd62fa10b9bd51f97d78cb4188056d29eebc154"
+      "sha256": "4e3dee25fa1b877acd9e3247f837b6e57cceff6ea38f7064d4b5ecf51d630e2b"
     }
   }
 }
