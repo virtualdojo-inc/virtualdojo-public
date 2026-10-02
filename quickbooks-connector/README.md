@@ -101,15 +101,28 @@ virtualdojo_sync_console run to-virtualdojo --commit
 
 ## Updates
 
-The desktop app checks once a day whether a newer version has been published. If there is one, an
-**Update available** link appears in the main window. The connector never downloads or installs
-anything itself. To update, close the program and replace both `.exe` files **in the same folder**
-with the new ones (a different folder makes QuickBooks ask for permission again).
+The desktop app checks hourly whether a newer version has been published. If there is one, an
+orange **Update available — click to install** link appears in the main window. Click it and the
+app:
 
-In a console, `virtualdojo_sync_console update` reports the same thing (exit code `0` up to date,
-`2` a newer version exists, `1` could not check). To turn the daily check off, set the environment
-variable `QBEC_NO_UPDATE_CHECK=1`. Machines that cannot reach `raw.githubusercontent.com` simply
-show no notice.
+1. downloads the new programs from this repository,
+2. checks each against the published SHA-256 checksum (and that the new console program reports
+   the promised version),
+3. swaps them in **in the same folder**, then
+4. closes and reopens on the new version.
+
+Nothing in your install folder changes unless every check passes, and if the swap fails the
+previous version is put back. Because the programs stay at the same path, QuickBooks should not
+ask for permission again. Your settings, mapping and database are not touched. The update
+never runs on its own: it only happens when you click.
+
+In a console, `virtualdojo_sync_console update` reports whether a newer version exists (exit code
+`0` up to date, `2` newer version exists, `1` could not check), and
+`virtualdojo_sync_console update --install` installs it. Start the program again afterwards.
+
+If the install folder is not writable (for example under `C:\Program Files` without
+administrator rights), the link opens this page instead so you can replace the files yourself.
+To turn the hourly check off, set the environment variable `QBEC_NO_UPDATE_CHECK=1`.
 
 ## Safety features
 

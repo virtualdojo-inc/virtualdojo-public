@@ -284,16 +284,17 @@ cannot be sure. Use `state` when it stops and tells you a record needs a human d
 
 ## update
 
-Reports whether a newer release has been published. It never downloads or installs anything.
+Reports whether a newer release has been published. With `--install` it also downloads, verifies and installs it; without it, nothing is downloaded or changed.
 
 ```console
 virtualdojo_sync_console update
+virtualdojo_sync_console update --install
 ```
 
 Exit code `0`: you are up to date. `2`: a newer version exists (the download page is printed).
-`1`: the check could not be completed, for example because the computer is offline. `doctor` also
+`1`: the check could not be completed, for example because the computer is offline. With `--install`, `0` means it installed (or you were already current) and `1` means it could not; nothing is changed if a check fails. Run the program again afterwards. `doctor` also
 shows an `updates` line. Set `QBEC_NO_UPDATE_CHECK=1` to switch off the daily check the desktop app
-does; the `update` command itself always checks when you run it.
+does (it runs hourly); the `update` command itself always checks when you run it.
 
 ## gui
 

@@ -1,16 +1,16 @@
 {
-  "version": "0.9.1",
+  "version": "0.10.0",
   "released": "2026-10-02",
-  "notes": "Version bump to exercise the update notice. No functional changes from 0.8.0.",
+  "notes": "You can now install updates from inside the app: click the Update available link, or run update --install. The update check now runs hourly.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
-      "sha256": "1bdfa6fcd8f73cbc2e646a74aaedec39c0fd43cf1991e5d1b708edfeba0642a7"
+      "sha256": "e2d879d4c8ca091f73b8f6e9976cfd3007ab0ba3aec1fa7adfb32ab0830de071"
     },
     "virtualdojo_sync_console.exe": {
       "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
-      "sha256": "48c46fe9bf29ba9b4219fff3d2bd28260ba665ba05c1b38b99770115970dd2a3"
+      "sha256": "16a9855acbb3e8f79ac92f0f30b12faf29f3154fc11c3ee2fc564333c2933296"
     }
   }
 }
