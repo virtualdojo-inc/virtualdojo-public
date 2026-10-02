@@ -32,6 +32,7 @@ options, for example `virtualdojo_sync_console run --help`.
 | [`dump`](#dump) | Saves raw QuickBooks data to a file for support | No |
 | [`mapping`](#mapping) | Shows and edits field mappings | Mapping file only |
 | [`state`](#state) | Shows and resolves interrupted writes | Only with `--mark-*` |
+| [`update`](#update) | Checks whether a newer version is available | No |
 | [`gui`](#gui) | Opens the desktop window | — |
 
 ---
@@ -281,6 +282,19 @@ virtualdojo_sync_console state --mark-failed invoices/<record-id>
 Normally you do not need this: the next run reconciles interrupted writes itself and stops if it
 cannot be sure. Use `state` when it stops and tells you a record needs a human decision.
 
+## update
+
+Reports whether a newer release has been published. It never downloads or installs anything.
+
+```console
+virtualdojo_sync_console update
+```
+
+Exit code `0`: you are up to date. `2`: a newer version exists (the download page is printed).
+`1`: the check could not be completed, for example because the computer is offline. `doctor` also
+shows an `updates` line. Set `QBEC_NO_UPDATE_CHECK=1` to switch off the daily check the desktop app
+does; the `update` command itself always checks when you run it.
+
 ## gui
 
 Opens the desktop window (the same as running `virtualdojo_sync.exe`).
@@ -300,6 +314,7 @@ Set these in the console window before running a command (`set NAME=value` in Co
 |---|---|
 | `QBEC_CONFIG_DIR` | Use this folder instead of the default [configuration folder](files-and-data.md). Handy for keeping separate setups. |
 | `QBEC_TRACE_XML` | Path to a file. When set, every request sent to and reply from QuickBooks is written to it. Useful when support asks for one. The file contains your data. |
+| `QBEC_NO_UPDATE_CHECK` | Set to `1` to turn off the desktop app's daily update check. |
 | `QBEC_NO_DIALOGS` | Set to `1` to suppress pop-up dialogs, e.g. for scheduled runs. |
 
 ## Scheduling a run

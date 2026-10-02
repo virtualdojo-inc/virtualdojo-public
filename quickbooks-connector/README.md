@@ -40,7 +40,7 @@ You do **not** need Python or any other software.
 | Console app | [virtualdojo_sync_console.exe](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe) |
 | Checksums | [SHA256SUMS.txt](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/SHA256SUMS.txt) |
 
-No sign-in is needed. The files are in the [`downloads/`](downloads/) folder (version 0.0.1).
+No sign-in is needed. The files are in the [`downloads/`](downloads/) folder. The current version is listed in [`latest.json`](latest.json).
 Each release includes a `SHA256SUMS.txt` file so you can confirm your download is intact:
 
 ```powershell
@@ -98,6 +98,18 @@ virtualdojo_sync_console run to-virtualdojo --commit
 > writes contains example account names and settings (income, expense, tax, and A/R accounts).
 > They must match accounts that exist in *your* chart of accounts. `doctor` lists any it cannot
 > verify. Change them with `config --set NAME=VALUE`, or in the desktop app's mapping screen.
+
+## Updates
+
+The desktop app checks once a day whether a newer version has been published. If there is one, an
+**Update available** link appears in the main window. The connector never downloads or installs
+anything itself. To update, close the program and replace both `.exe` files **in the same folder**
+with the new ones (a different folder makes QuickBooks ask for permission again).
+
+In a console, `virtualdojo_sync_console update` reports the same thing (exit code `0` up to date,
+`2` a newer version exists, `1` could not check). To turn the daily check off, set the environment
+variable `QBEC_NO_UPDATE_CHECK=1`. Machines that cannot reach `raw.githubusercontent.com` simply
+show no notice.
 
 ## Safety features
 
