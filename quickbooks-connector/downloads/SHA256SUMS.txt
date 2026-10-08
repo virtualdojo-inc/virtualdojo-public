@@ -1,2 +1,0 @@
-ec26ad45242c76429051c748a29787b2dea06573e4d64853e1744bd31cc4a770  virtualdojo_sync.exe
-f17ea205ac7b6c4baa0f97813ce9e4bd0a28a727dd6fbe35942bf01e2e3664e1  virtualdojo_sync_console.exe

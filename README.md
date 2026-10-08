@@ -15,7 +15,7 @@ one you need.
 
 ## QuickBooks Connector at a glance
 
-- **Download:** [desktop app](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe) · [console app](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe) · [checksums](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/SHA256SUMS.txt)
+- **Download:** [QuickBooks Connector releases](https://github.com/virtualdojo-inc/virtualdojo-public/releases?q=quickbooks-connector&expanded=true) — the desktop app, the console app and `SHA256SUMS.txt` are under each release's **Assets**
 - [Overview and installation](quickbooks-connector/README.md)
 - [Console commands reference](quickbooks-connector/docs/console-commands.md) — every command and option
 - [Where your files are stored](quickbooks-connector/docs/files-and-data.md) — configuration, field mappings, the local SQLite database, logs, reports, and saved credentials
@@ -28,7 +28,7 @@ virtualdojo-public/
 ├── README.md                  ← you are here
 └── quickbooks-connector/
     ├── README.md              ← overview, requirements, install
-    ├── downloads/             ← the .exe files and SHA256SUMS.txt
+    ├── latest.json            ← the current version (the apps' update check reads it)
     └── docs/
         ├── console-commands.md
         ├── files-and-data.md
