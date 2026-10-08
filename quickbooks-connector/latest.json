@@ -5,11 +5,11 @@
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe",
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.8/virtualdojo_sync.exe",
       "sha256": "ec26ad45242c76429051c748a29787b2dea06573e4d64853e1744bd31cc4a770"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe",
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.8/virtualdojo_sync_console.exe",
       "sha256": "f17ea205ac7b6c4baa0f97813ce9e4bd0a28a727dd6fbe35942bf01e2e3664e1"
     }
   }
