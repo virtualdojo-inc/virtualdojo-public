@@ -34,13 +34,17 @@ You do **not** need Python or any other software.
 
 ## Download
 
-| File | Download |
-|---|---|
-| Desktop app | [virtualdojo_sync.exe](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync.exe) |
-| Console app | [virtualdojo_sync_console.exe](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/virtualdojo_sync_console.exe) |
-| Checksums | [SHA256SUMS.txt](https://github.com/virtualdojo-inc/virtualdojo-public/raw/main/quickbooks-connector/downloads/SHA256SUMS.txt) |
+Download the newest **QuickBooks Connector** release from the
+[releases page](https://github.com/virtualdojo-inc/virtualdojo-public/releases?q=quickbooks-connector&expanded=true).
+Each release has these files under **Assets**:
 
-No sign-in is needed. The files are in the [`downloads/`](downloads/) folder. The current version is listed in [`latest.json`](latest.json).
+| File | What it is |
+|---|---|
+| `virtualdojo_sync.exe` | Desktop app |
+| `virtualdojo_sync_console.exe` | Console app |
+| `SHA256SUMS.txt` | Checksums |
+
+No sign-in is needed. The current version, with direct links to its files, is listed in [`latest.json`](latest.json).
 Each release includes a `SHA256SUMS.txt` file so you can confirm your download is intact:
 
 ```powershell
