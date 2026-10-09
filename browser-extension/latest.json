@@ -1,0 +1,16 @@
+{
+  "version": "0.39.0",
+  "released": "2026-10-09",
+  "notes": "First public release.",
+  "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/browser-extension",
+  "files": {
+    "virtualdojo-extension-0.39.0-chrome.zip": {
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/browser-extension-v0.39.0/virtualdojo-extension-0.39.0-chrome.zip",
+      "sha256": "69955ecf9dd9e4e583a71c1b403230a5711b526486f2e7d08d916cb460fb9e1c"
+    },
+    "virtualdojo-extension-0.39.0-edge.zip": {
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/browser-extension-v0.39.0/virtualdojo-extension-0.39.0-edge.zip",
+      "sha256": "811b97a1cdc08603cd477f7c51396853a357faa0ada921950d8842396b410395"
+    }
+  }
+}
