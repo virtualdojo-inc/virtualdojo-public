@@ -1,16 +1,16 @@
 {
-  "version": "0.10.8",
-  "released": "2026-10-02",
-  "notes": "Value map: Load QuickBooks values (ship via, customer message, tax codes, terms, class, template, sales rep) and a working Load VirtualDojo values for picklists.",
+  "version": "0.10.9",
+  "released": "2026-10-09",
+  "notes": "Configuration is easier to use: dropdowns can be searched by typing, mapping lists scroll, and the mapping can be exported to a file. Also fixes Refresh objects from VirtualDojo.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.8/virtualdojo_sync.exe",
-      "sha256": "ec26ad45242c76429051c748a29787b2dea06573e4d64853e1744bd31cc4a770"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.9/virtualdojo_sync.exe",
+      "sha256": "b79f3afc1fd62a971c0a0be59e0a3aaa2087d400611dfddaf0aff6a76014a8ec"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.8/virtualdojo_sync_console.exe",
-      "sha256": "f17ea205ac7b6c4baa0f97813ce9e4bd0a28a727dd6fbe35942bf01e2e3664e1"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.9/virtualdojo_sync_console.exe",
+      "sha256": "41c25bbf4646a6eb827421338382c4ebf1ff5f7f5fb10db633a231e4d551ec9e"
     }
   }
 }
