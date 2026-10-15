@@ -1,16 +1,16 @@
 {
-  "version": "0.10.9",
-  "released": "2026-10-09",
-  "notes": "Configuration is easier to use: dropdowns can be searched by typing, mapping lists scroll, and the mapping can be exported to a file. Also fixes Refresh objects from VirtualDojo.",
+  "version": "0.11.0",
+  "released": "2026-10-15",
+  "notes": "Review changes lets you choose, field by field, what to update in QuickBooks for records that changed after they were sent, and remembers fields you keep as they are. A short checklist appears before updates are applied, and a mapping can now be imported as well as exported.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.9/virtualdojo_sync.exe",
-      "sha256": "b79f3afc1fd62a971c0a0be59e0a3aaa2087d400611dfddaf0aff6a76014a8ec"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.11.0/virtualdojo_sync.exe",
+      "sha256": "b454c3c5c34594ca0223d9895c0e1cff11d577184260b634415ac857c855a238"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.10.9/virtualdojo_sync_console.exe",
-      "sha256": "41c25bbf4646a6eb827421338382c4ebf1ff5f7f5fb10db633a231e4d551ec9e"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.11.0/virtualdojo_sync_console.exe",
+      "sha256": "05aa2a002c5d475363ba0283eaafc14ba532e46f89f0383b5d0ff09fff992c26"
     }
   }
 }
