@@ -1,15 +1,15 @@
 {
-  "version": "0.9.0-beta.15",
-  "notes": "VirtualDojo Assist 0.9.0-beta.15",
-  "pub_date": "2026-10-14T15:17:25Z",
+  "version": "0.9.0-beta.16",
+  "notes": "VirtualDojo Assist 0.9.0-beta.16",
+  "pub_date": "2026-10-19T17:55:32Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTTFEUG1XKzNaY2RsV003b2p3bVRjM1ZIcFpkdk94Z2xlbEVKMlI0VDFzRlFwNGV3WDlxcnZOZ25mQ0pKUXZ3M1BnL25mSDhxTjRPN1RGeDZ4OHBsMXVUTTNjNlFYcFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg5OTgyCWZpbGU6VmlydHVhbERvam8gQXNzaXN0LmFwcC50YXIuZ3oKbklpMURNa3NncTZ3Q1lXRG1aWitoQkl5UEhQbW1ldm4zK21IanYxNHVhbWFycXowbXhhY2V5NnljZUFCNEE1dGpKYkRGZTFieGhCVWh0SVBkczJDQkE9PQo=",
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/assist-v0.9.0-beta.15/VirtualDojo.Assist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTTFEUG1XKzNaY2ZqcHVUTlVhcnBwek5PWVRLQzZxSWtEb05qVUFoR29EcWdBQVBmU1RwVFc3T2lTSGdjQkJCTG9BdE1QeWMvTXFMZUY1YjhFUzVZaEtSRFdLdUhrUFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDMxMzY0CWZpbGU6VmlydHVhbERvam8gQXNzaXN0LmFwcC50YXIuZ3oKY01sTXprcEprTUZ3RG80VGEvUkZ1WldwUCsxQWFEdjlpMFBMdktuT05mZW9tQ0o3NjNxdWRSdXZLVmNJY2pkTWdTa3ZIblN4WHUzVkRRZUdXbFJXQ0E9PQo=",
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/assist-v0.9.0-beta.16/VirtualDojo.Assist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTTFEUG1XKzNaY1RFV2RZWlNpR000T01DQ21RbW9IZldkdUhMaE1QYjlEZVNNSlVJeWd3alBlalQ2SS9wSDVRLzBvajRHSUVTMGp4bEZuQ2s2L0tIVThzU0FnalRrbEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTkwNzIxCWZpbGU6VmlydHVhbERvam8gQXNzaXN0XzAuOS4wLWJldGEuMTVfeDY0LXNldHVwLmV4ZQpnUGdRaERJcFhCd1I4bkZEWm1qM3VsRkhrRWJleEJvTU82bUNMa0FpdmpZWm1tdWtJOTM0MlNDeGh4Y3JuMUZmbjBoMFpXT2RvODc3MFRmUDcySDBEQT09Cg==",
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/assist-v0.9.0-beta.15/VirtualDojo.Assist_0.9.0-beta.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTTFEUG1XKzNaY1VuQjBVT2l2ZFBGdHdzMWg4ZUEzNFFJZTRaREEvTlRkMkxaWThQT1huZWlBdE5WdFZNWDZnOWRaMEwyOXY5UEwvTnJqOTc0SExyYUtEQm1mMVZoNWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDMyMzE3CWZpbGU6VmlydHVhbERvam8gQXNzaXN0XzAuOS4wLWJldGEuMTZfeDY0LXNldHVwLmV4ZQpXNmh6aFFyeHAvTUlaQ3BqblVlSzJTQWNKQStwMEVOVGZHWGE1MkVzTVIyM3ZTSC8vbFJGazlNZXpWN1lqM013VFloSk9ZNjJiaFZWalhXd0swN3pBdz09Cg==",
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/assist-v0.9.0-beta.16/VirtualDojo.Assist_0.9.0-beta.16_x64-setup.exe"
     }
   }
 }
