@@ -1,16 +1,16 @@
 {
-  "version": "0.11.1",
-  "released": "2026-10-16",
-  "notes": "After each import or update, a summary now shows what was written to QuickBooks, what is waiting for your review, and anything that needs attention, with a button to review the changed records straight away.",
+  "version": "0.12.0",
+  "released": "2026-10-21",
+  "notes": "Imports and exports can now run automatically on a schedule, and a new Run history shows what every run did, including a summary of scheduled runs since you last opened the app. The main window also has a cleaner, simpler design.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.11.1/virtualdojo_sync.exe",
-      "sha256": "1c10dca6ab8a5e2fcaab509fdc2f8be8c3e6b90a477be7461646ad757406f514"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.12.0/virtualdojo_sync.exe",
+      "sha256": "f2c081959abdf07a73bbac75d65f3daf33d1a2bb2126646945634064392b004a"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.11.1/virtualdojo_sync_console.exe",
-      "sha256": "1a851907e06038d6ba611d046962e10773a3bca9ff0dd21afd626e4ec8326f84"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.12.0/virtualdojo_sync_console.exe",
+      "sha256": "871c35e4e76924849a2c9099cf4e38f02a6b4bee8bf93ae68af903370c7d82c8"
     }
   }
 }
