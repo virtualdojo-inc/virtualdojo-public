@@ -1,16 +1,16 @@
 {
-  "version": "0.12.0",
-  "released": "2026-10-21",
-  "notes": "Imports and exports can now run automatically on a schedule, and a new Run history shows what every run did, including a summary of scheduled runs since you last opened the app. The main window also has a cleaner, simpler design.",
+  "version": "0.13.0",
+  "released": "2026-10-23",
+  "notes": "Purchase orders can now be sent from VirtualDojo to QuickBooks, and parts filed under their manufacturer in QuickBooks (for example SAMSUNG:S27D368GAN) are found and linked instead of being added again. A new \"Where parts are filed\" setting covers both ways of keeping the Item list. Test Mode now checks more of what QuickBooks will check, and every slow step shows its progress. Configuration opens faster, keeps separate settings for each company file, and lets you map fields one by one.\n",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.12.0/virtualdojo_sync.exe",
-      "sha256": "f2c081959abdf07a73bbac75d65f3daf33d1a2bb2126646945634064392b004a"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.0/virtualdojo_sync.exe",
+      "sha256": "6073ad4f09fe6bd37f9b4d38c70de4ca3eac7bfe0965816ff9a1aa9c04466354"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.12.0/virtualdojo_sync_console.exe",
-      "sha256": "871c35e4e76924849a2c9099cf4e38f02a6b4bee8bf93ae68af903370c7d82c8"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.0/virtualdojo_sync_console.exe",
+      "sha256": "75bf67de70a88b808b0341ff326fa1288929fe8f90ba01c0b9b642ebb0befec9"
     }
   }
 }
