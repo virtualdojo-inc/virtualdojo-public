@@ -1,16 +1,16 @@
 {
-  "version": "0.13.0",
-  "released": "2026-10-23",
-  "notes": "Purchase orders can now be sent from VirtualDojo to QuickBooks, and parts filed under their manufacturer in QuickBooks (for example SAMSUNG:S27D368GAN) are found and linked instead of being added again. A new \"Where parts are filed\" setting covers both ways of keeping the Item list. Test Mode now checks more of what QuickBooks will check, and every slow step shows its progress. Configuration opens faster, keeps separate settings for each company file, and lets you map fields one by one.\n",
+  "version": "0.13.1",
+  "released": "2026-10-25",
+  "notes": "Configuration now shows only what your company file actually has: fields, lists, custom fields and templates the file lacks are hidden instead of being offered and then refused by QuickBooks. On a real run, customers, vendors and jobs that already exist in QuickBooks are linked to directly instead of being added again, which removes the burst of refused writes that could make QuickBooks crash mid-run.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.0/virtualdojo_sync.exe",
-      "sha256": "6073ad4f09fe6bd37f9b4d38c70de4ca3eac7bfe0965816ff9a1aa9c04466354"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.1/virtualdojo_sync.exe",
+      "sha256": "98623b6ede6bf285773e02a5cfee630245b929cb8c2212a000b771ee62d6b3b8"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.0/virtualdojo_sync_console.exe",
-      "sha256": "75bf67de70a88b808b0341ff326fa1288929fe8f90ba01c0b9b642ebb0befec9"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.1/virtualdojo_sync_console.exe",
+      "sha256": "551bd021ce797ef8e8d69048e46f08ae157469f7140b5bd739214a96d6f03c7d"
     }
   }
 }
