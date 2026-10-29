@@ -1,16 +1,16 @@
 {
-  "version": "0.13.1",
-  "released": "2026-10-25",
-  "notes": "Configuration now shows only what your company file actually has: fields, lists, custom fields and templates the file lacks are hidden instead of being offered and then refused by QuickBooks. On a real run, customers, vendors and jobs that already exist in QuickBooks are linked to directly instead of being added again, which removes the burst of refused writes that could make QuickBooks crash mid-run.",
+  "version": "0.13.2",
+  "released": "2026-10-29",
+  "notes": "Simpler screen: tick what to send, Preview, then Send. A warning to close QuickBooks windows before sending, which prevents a QuickBooks crash. Updates now install themselves when the window opens. Optional settings can be left blank. Names already used by a customer or vendor are caught in the Preview instead of failing in QuickBooks.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.1/virtualdojo_sync.exe",
-      "sha256": "98623b6ede6bf285773e02a5cfee630245b929cb8c2212a000b771ee62d6b3b8"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.2/virtualdojo_sync.exe",
+      "sha256": "530956c56516b670853ab2b13c7df5ba65ec0a9b0f9b92407ad7d04a1585c285"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.1/virtualdojo_sync_console.exe",
-      "sha256": "551bd021ce797ef8e8d69048e46f08ae157469f7140b5bd739214a96d6f03c7d"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.2/virtualdojo_sync_console.exe",
+      "sha256": "398548f6411a6255336aa99c640ab67dea6f59a7938aa43f06dfbad7867913c2"
     }
   }
 }
