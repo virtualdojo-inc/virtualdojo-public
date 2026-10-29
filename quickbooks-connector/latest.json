@@ -1,16 +1,16 @@
 {
-  "version": "0.13.2",
+  "version": "0.13.3",
   "released": "2026-10-29",
-  "notes": "Simpler screen: tick what to send, Preview, then Send. A warning to close QuickBooks windows before sending, which prevents a QuickBooks crash. Updates now install themselves when the window opens. Optional settings can be left blank. Names already used by a customer or vendor are caught in the Preview instead of failing in QuickBooks.",
+  "notes": "Fix: Configuration no longer crashes after Import mapping. Importing a mapping with different settings (for example one without a COGS account) and then pressing Refresh stopped Configuration with \"No account type is declared for constant 'cogs_account'\". The settings now follow the imported file, including settings only that file has (such as Set Aside, Via and customer message), and nothing from the previous screen is copied into it.",
   "page": "https://github.com/virtualdojo-inc/virtualdojo-public/tree/main/quickbooks-connector",
   "files": {
     "virtualdojo_sync.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.2/virtualdojo_sync.exe",
-      "sha256": "530956c56516b670853ab2b13c7df5ba65ec0a9b0f9b92407ad7d04a1585c285"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.3/virtualdojo_sync.exe",
+      "sha256": "7e1cd4a093635e5e9cf4db144991c3bc36d23c18b285a574b21035669d7e12ad"
     },
     "virtualdojo_sync_console.exe": {
-      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.2/virtualdojo_sync_console.exe",
-      "sha256": "398548f6411a6255336aa99c640ab67dea6f59a7938aa43f06dfbad7867913c2"
+      "url": "https://github.com/virtualdojo-inc/virtualdojo-public/releases/download/quickbooks-connector-v0.13.3/virtualdojo_sync_console.exe",
+      "sha256": "d4a3679ba2bdaede681334e200808203218a55383715c5cee78f7b2b976a45d0"
     }
   }
 }
